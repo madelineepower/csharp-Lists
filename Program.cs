@@ -23,8 +23,8 @@ namespace lists
             foreach (string planet in planetList) {
                 Console.WriteLine(planet);
             }
-            planetList.Insert(1, "Earth");
             planetList.Insert(1, "Venus");
+            planetList.Insert(2, "Earth");
             Console.WriteLine("-----------");
             Console.WriteLine("Insert Earth and Venus List");
             Console.WriteLine("-----------");
